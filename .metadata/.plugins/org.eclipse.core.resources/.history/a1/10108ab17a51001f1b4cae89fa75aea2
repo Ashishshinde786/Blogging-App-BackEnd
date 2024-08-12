@@ -1,0 +1,5 @@
+package com.ashish.blog.services;
+
+public interface CategoryRepo {
+
+}

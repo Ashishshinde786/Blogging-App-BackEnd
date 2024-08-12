@@ -1,0 +1,26 @@
+package com.ashish.blog.peyloads;
+
+import java.util.Date;
+
+import com.ashish.blog.entities.Category;
+import com.ashish.blog.entities.User;
+
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
+
+public class PostDto {
+
+	
+	private String title;
+	
+	private String content;
+	
+	private String imageName;
+	
+	private Date addedDate;
+	
+    private Category category;
+    
+    private User user;
+	
+}

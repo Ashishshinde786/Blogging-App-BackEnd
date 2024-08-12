@@ -1,0 +1,20 @@
+package com.ashish.blog.services.impl;
+
+import com.ashish.blog.peyloads.CommentDto;
+import com.ashish.blog.services.CommentService;
+
+public class CommentServiceImpl implements CommentService {
+
+	@Override
+	public CommentDto createComment(CommentDto commentDto, Integer postId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deleteComment(Integer commentId) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

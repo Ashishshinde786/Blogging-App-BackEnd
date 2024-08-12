@@ -1,0 +1,5 @@
+package com.ashish.blog.peyloads;
+
+public class PostResponse {
+
+}

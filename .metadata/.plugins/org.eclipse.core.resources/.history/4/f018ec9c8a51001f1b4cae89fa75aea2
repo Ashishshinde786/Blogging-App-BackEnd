@@ -1,0 +1,5 @@
+package com.ashish.blog.entities;
+
+public class Post {
+
+}

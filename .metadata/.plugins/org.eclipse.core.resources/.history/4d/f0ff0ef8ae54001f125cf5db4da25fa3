@@ -1,0 +1,5 @@
+package com.ashish.blog.repositories;
+
+public interface CommentRepo {
+
+}

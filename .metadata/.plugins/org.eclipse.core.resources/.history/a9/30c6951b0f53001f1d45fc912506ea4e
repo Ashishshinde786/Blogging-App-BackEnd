@@ -1,0 +1,27 @@
+package com.ashish.blog.services;
+
+import java.util.List;
+import com.ashish.blog.peyloads.PostDto;
+import com.ashish.blog.peyloads.PostResponse;
+
+public interface PostService {
+    
+    PostDto createPost(PostDto postDto, Integer userId, Integer categoryId);
+    
+    PostDto updatePost(PostDto postDto, Integer postId); // Changed return type to PostDto
+    
+    void deletePost(Integer postId);
+    
+    PostResponse getAllPost(Integer pageNumber, Integer pageSize);
+    
+    PostDto getPostById(Integer postId);
+    
+    //List<PostDto> getPostsByCategory(Integer categoryId);
+    
+    PostResponse getPostsByCategory(Integer categoryId, Integer pageNumber, Integer pageSize);
+    
+    //List<PostDto> getPostsByUsers(Integer userId);
+    
+    PostResponse getPostsByUsers(Integer userId, Integer pageNumber, Integer pageSize);
+    List<PostDto> searchPosts(String keyword); // Changed return type to List<PostDto>
+}
